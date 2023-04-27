@@ -1,3 +1,8 @@
+
+
+<!-- https://www.figma.com/file/X6Svr3cT6BaT8Ki3ArhZ5S/Untitled?node-id=0-1&t=cuSRXgj91ZTPQysl-0 -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,27 +10,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 </head>
 <body>
-    <section>
+    <section class="nav-section">
         <nav class="navbar">
-            <div id="startup">
-                <h1>Startup</h1>
+            <div id="logo">
+               <img src="./utils/Startup.png" alt="logo">
               </div>
-            <div>
-                <a href="">Home</a>
-            </div>
-           <div>
-             <a href="">About Us</a>
-           </div>
-            <div>
-                <a href="">Contact Us</a>
-            </div>
-
-            <div>
-                <a href="">Login</a>
+            <div class="nav-items">
+                <a href="#">Home</a>
+           
+                <a href="#">About Us</a>
+          
+                <a href="#">Contact Us</a>
+            
+                <a href="#">Login</a>
             </div>
          
             
@@ -33,13 +36,14 @@
         </nav>
     </section >
 
-
+<main>
+       
     <section class="container">
 
         <div class="left">
             <h1>Startup Landing Page</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>login</button>
+            <button class="btn">login</button>
         </div>
         <div class="right">
             <img src="./utils/jeff 1.png" alt="image">
@@ -49,18 +53,20 @@
     <section>
         <form class="form">
             <h1><b>Contact Us</b></h1>
-            <input class="full" type="name" value="name" width="100%"><br><br>
+            <input class="full" type="name" value="name"><br><br>
 
-            <input class="full" type="email" value="email" width="100%"><br><br>
+            <input class="full" type="email" value="email" ><br><br>
 
             <input class="half"  type="tel" value="mobile number" >
 
             <input class="half" type="text" value="city"><br>
-            <button id="btn" type="submit">submit button</button>
-            
+            <div>
+                <button id="btn" type="submit">submit button</button>
+            </div>
         </form>
 
     </section><br>
+
     <section class="tables">
         <table>
             <thead>
@@ -114,6 +120,8 @@
             </tfoot>
         </table>
     </section>
+</main>
+   
 
 
     
